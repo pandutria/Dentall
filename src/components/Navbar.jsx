@@ -3,7 +3,7 @@ import logo from "/logo.png"
 
 const Navbar = () => {
   return (
-    <div className='flex flex-row items-center py-3 w-full justify-between px-20 border border-[#0000000D]'>
+    <div className='fixed bg-white z-50 flex flex-row items-center py-3 w-full justify-between px-20 border border-[#0000000D]'>
         <div className='logo flex flex-row gap-2 items-center'>
             <img className='w-14 mb-2' src={logo} alt="" />
             <div className='flex flex-col'>
@@ -12,7 +12,7 @@ const Navbar = () => {
             </div>
         </div>
         <div className='flex flex-row gap-10'>
-            <a href="" className='text-[14px] font-normal font-poppins text-primary'>Home</a>
+            <a href="" className='text-[14px] font-medium font-poppins text-primary'>Home</a>
             <a href="" className='text-[14px] font-normal font-poppins'>About</a>
             <a href="" className='text-[14px] font-normal font-poppins'>Our Service</a>
             <a href="" className='text-[14px] font-normal font-poppins'>Consultasion</a>
