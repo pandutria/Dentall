@@ -8,6 +8,15 @@ import teeth from "/teeth.png"
 import checkup from "/checkup.png"
 import treatment from "/treatment.png"
 import cleaning from "/cleaning.png"
+import dentist1 from "/dentist1.png"
+import dentist2 from "/dentist2.png"
+import dentist3 from "/dentist3.png"
+import dentist4 from "/dentist4.png"
+import dentist5 from "/dentist5.png"
+import titik2 from "/titik2.png"
+import circle1 from "/circle1.png"
+import circle2 from "/circle2.png"
+import more from "/more.png"
 
 const LandingPage = () => {
   return (
@@ -26,12 +35,12 @@ const LandingPage = () => {
       <img className='w-140 h-auto mt-[-60px] ml-[-25px]' src={home} alt="" />
     </div>
 
-    <div className='flex flex-row justify-center items-center gap-45 pt-10'>
+    <div className='flex flex-row justify-center items-center gap-50 pt-10'>
       <h1 className='font-poppins font-medium text-[55px] w-120 leading-tight'>Get pearl white teeth easily</h1>
       <p className='font-poppins text-[#6B6B6B] w-95 text-[12px]'>We understand that dental health is a long-term investment for a better quality of life. With a team of professional doctors and modern equipment, we are committed to providing a comfortable, safe, and high-quality dental care experience.</p>
     </div>
     <div className='flex flex-row justify-center pt-12 pb-20 gap-20'>
-      <img className='w-130' src={consultation} alt="" />
+      <img className='w-135' src={consultation} alt="" />
       <div className='flex flex-col gap-10 mt-20'>
         <div className='flex flex-col gap-2'>
           <img className='w-11' src={book} alt="" />
@@ -78,6 +87,69 @@ const LandingPage = () => {
           <p className='font-poppins font-medium text-[#454545] h-24 text-[13px] mt-2 mx-5 w-75'>Plaque and tartar buildup can lead to gum disease, bad breath, and cavities. With our professional teeth cleaning and scaling service.</p>
         </div>
       </div>
+      </div>
+    </div>
+    
+    <div className='flex flex-col justify-center items-center w-full py-10'>
+      <div className='flex flex-row gap-185'>
+        <div className='flex flex-col'>
+          <h2 className='text-primary font-poppins font-semibold text-[18px]'>Our Team</h2>
+          <h1 className='font-poppins font-semibold text-[35px]'>Our Expert <span className='text-primary'>Dentist</span></h1>
+        </div>
+        <div></div>
+      </div>
+      <div className='flex flex-row gap-5 pt-10'>
+        <img className='w-85' src={dentist1} alt="" />
+        <img className='w-85' src={dentist2} alt="" />
+        <img className='w-85' src={dentist3} alt="" />
+      </div>
+      <div className='flex flex-row gap-5 pt-5'>
+        <img className='w-85' src={dentist4} alt="" />
+        <img className='w-85' src={dentist5} alt="" />
+        <img className='w-85' src={dentist1} alt="" />
+      </div>
+      <div className='flex flex-row pt-20 pb-10 items-center gap-45'>
+        <h1 className='font-poppins font-semibold text-[45px] w-110 leading-tight'>See What Our Client Have to Say:</h1>
+        <p className='font-poppins font-normal text-[#6B6B6B] text-[13px] w-115'>We understand that dental health is a long-term investment for a better quality of life. With a team of professional doctors and modern equipment, we are committed to providing a comfortable, safe, and high-quality dental care experience.</p>
+      </div>
+      <hr className='border-[1px] border-[#7D7D7D9E] w-270'/>
+      <div className='flex flex-row py-12 gap-10'>
+        <div className='flex flex-col bg-[#3498DB1A] rounded-[10px] p-5 gap-5'>
+          <img className='w-12' src={titik2} alt="" />
+          <p className='font-poppins font-normal text-[18px] w-120'>I had an amazing experience at Senyum Sehat Ceria. The staff was incredibly friendly, and the dentist explained every step of my treatment clearly. My teeth feel healthier than ever! Highly recommended!"</p>
+          <hr className='border-[1px] border-[#D0D0D0]'/>
+          <div className='flex flex-row items-center justify-between'>
+            <div className='flex flex-row gap-4'>
+              <img className='w-11' src={circle1} alt="" />
+              <div className='flex flex-col'>
+                <h1 className='font-poppins font-semibold text-[16px]'>Tyan Yanuri</h1>
+                <p className='font-poppins font-medium text-[#676767] text-[13px]'>Product Manager</p>
+              </div>
+            </div>
+            <div className='flex flex-row items-center gap-2'>
+              <p className='font-poppins font-normal text-[#2BAAFF] text-[17px]'>Read More</p>
+              <img src={more} className='w-2 h-3' alt="" />
+            </div>
+          </div>
+        </div>
+        <div className='flex flex-col bg-[#FFF2001A] rounded-[10px] p-5 gap-5'>
+          <img className='w-12' src={titik2} alt="" />
+          <p className='font-poppins font-normal text-[18px] w-120'>From the moment I walked in, I felt welcomed. The clinic is modern, clean, and comfortable. My Invisalign treatment has been smooth, and the results are fantastic.</p>
+          <hr className='border-[1px] border-[#D0D0D0]'/>
+          <div className='flex flex-row items-center justify-between'>
+            <div className='flex flex-row gap-4'>
+              <img className='w-11' src={circle2} alt="" />
+              <div className='flex flex-col'>
+                <h1 className='font-poppins font-semibold text-[16px]'>Aisyah Lala</h1>
+                <p className='font-poppins font-medium text-[#676767] text-[13px]'>UI UX Designer</p>
+              </div>
+            </div>
+            <div className='flex flex-row items-center gap-2'>
+              <p className='font-poppins font-normal text-[#2BAAFF] text-[17px]'>Read More</p>
+              <img src={more} className='w-2 h-3' alt="" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
