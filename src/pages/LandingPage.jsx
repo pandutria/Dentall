@@ -16,9 +16,14 @@ import dentist5 from "/dentist5.png"
 import titik2 from "/titik2.png"
 import circle1 from "/circle1.png"
 import circle2 from "/circle2.png"
+import circle3 from "/circle3.png"
 import more from "/more.png"
 import location from "/location.png"
+import location2 from "/location2.png"
 import serpong from "/serpong.png"
+import call from "/call.png"
+import email from "/email.png"
+import pink from "/pink.png"
 
 const LandingPage = () => {
   return (
@@ -155,7 +160,7 @@ const LandingPage = () => {
       </div>
     </div>
 
-    <div className='flex flex-row gap-5 justify-center pb-10'>
+    <div className='flex flex-row gap-5 justify-center'>
       <div className='flex flex-col'>
         <div className='flex flex-row items-center gap-3 border-[2px] border-[#FF69B4] w-fit rounded-[10px] py-1.5 px-3.5'>
           <img src={location} className='w-3' alt="" />
@@ -190,6 +195,83 @@ const LandingPage = () => {
         <a href="" className='font-poppins font-medium text-[14px] bg-primary w-fit text-white rounded-[20px] px-5 py-2.5 mt-8'>See all location</a>
       </div>
       <img src={serpong} className='w-140' alt="" />
+    </div>
+
+    <div className='flex flex-row pt-20 pb-20 justify-center w-full gap-25'>
+      <div className='flex flex-col'>
+         <div className='flex flex-row items-center gap-3 border-[2px] border-[#FF69B4] w-fit rounded-[10px] py-1.5 px-3.5'>
+          <p className='font-poppins font-medium text-primary text-[14px]'>Book Now</p>
+        </div>
+        <h1 className='font-poppins font-semibold text-[45px] w-110 leading-tight pt-8'>Book Now & Secure <span className='text-primary'>Your Seat</span> Here</h1>
+        <p className='font-poppins font-medium text-[#595959] text-[13px] w-100 pt-3'>Ready for a brighter, healthier smile? Schedule your visit with us now! Whether it’s a routine check-up, teeth cleaning, or a specialized treatment, our expert dentists are here to help.</p>
+        <div className='flex flex-row pt-8 items-center gap-2'>
+          <img src={location2} className='w-4 h-4 object-contain' alt="" />
+          <p className='font-poppins font-medium text-[#595959] text-[14px]'>Ruko Pisa Grande B no 7, Banten 15810</p>
+        </div>
+        <div className='flex flex-row pt-2.5 items-center gap-2'>
+          <img src={email} className='w-4 h-4 object-contain' alt="" />
+          <p className='font-poppins font-medium text-[#595959] text-[14px]'>senyumsehatceria@gmail.com</p>
+        </div>
+        <div className='flex flex-row pt-2.5 items-center gap-2'>
+          <img src={call} className='w-4 h-4 object-contain' alt="" />
+          <p className='font-poppins font-medium text-[#595959] text-[14px]'>+62 1297786651</p>
+        </div>
+        <img src={pink} className='w-110 h-auto object-contain pt-10' alt="" />
+      </div>
+      <form action="" className='flex flex-col py-7 px-7 gap-5 rounded-[18px] shadow-[0px_1px_12.4px_1px_rgba(0,0,0,0.25)]'>
+        <div className='flex flex-row gap-6 w-120'>
+          <div className='flex flex-col gap-2'>
+            <div className='flex flex-row items-center gap-2'>
+              <h1 className='font-poppins font-semibold text-[16px]'>Your Name</h1>
+              <img src={circle3} className='w-2 h-2 object-contain' alt="" />
+            </div>
+            <input type="text" placeholder='Enter Your Name' className='font-poppins font-medium text-[15px] text-[#AEAEAE] border-[#CBCBCB] border-[2px] rounded-[5px] py-3 px-3 w-full focus:border-primary focus:bord-[4px] outline-none' />
+          </div>
+          <div className='flex flex-col gap-2'>
+            <div className='flex flex-row items-center gap-2'>
+              <h1 className='font-poppins font-semibold text-[16px]'>Telephone</h1>
+              <img src={circle3} className='w-2 h-2 object-contain' alt="" />
+            </div>
+            <input type="text" placeholder='Enter Your Number' className='font-poppins font-medium text-[15px] text-[#AEAEAE] border-[#CBCBCB] border-[2px] rounded-[5px] py-3 pl-3 w-full focus:border-primary focus:bord-[4px] outline-none' />
+          </div>
+        </div>
+        <div className='flex flex-row gap-6 w-120'>
+          <div className='flex flex-col gap-2'>
+            <div className='flex flex-row items-center gap-2'>
+              <h1 className='font-poppins font-semibold text-[16px]'>Email address</h1>
+              <img src={circle3} className='w-2 h-2 object-contain' alt="" />
+            </div>
+            <input type="text" placeholder='Enter Your Email' className='font-poppins font-medium text-[15px] text-[#AEAEAE] border-[#CBCBCB] border-[2px] rounded-[5px] py-3 px-3 w-full focus:border-primary focus:bord-[4px] outline-none' />
+          </div>
+          <div className='flex flex-col gap-2'>
+            <div className='flex flex-row items-center gap-2'>
+              <h1 className='font-poppins font-semibold text-[16px]'>Date</h1>
+              <img src={circle3} className='w-2 h-2 object-contain' alt="" />
+            </div>
+            <input type="text" placeholder='Enter Your Number' className='font-poppins font-medium text-[15px] text-[#AEAEAE] border-[#CBCBCB] border-[2px] rounded-[5px] py-3 pl-3 w-full focus:border-primary focus:bord-[4px] outline-none' />
+          </div>
+        </div>
+         <div className='flex flex-col gap-2'>
+            <div className='flex flex-row items-center gap-2'>
+              <h1 className='font-poppins font-semibold text-[16px]'>Select Service</h1>
+              <img src={circle3} className='w-2 h-2 object-contain' alt="" />
+            </div>
+            <select type="text" placeholder='Enter Your Service' className='font-poppins font-medium text-[15px] text-[#AEAEAE] border-[#CBCBCB] border-[2px] rounded-[5px] py-3 pl-3 w-full focus:border-primary focus:bord-[4px] outline-none' >
+              <option value="" disabled selected>Enter Your Service</option>
+              <option value="service1">Service Option 1</option>
+              <option value="service2">Service Option 2</option>
+              <option value="service3">Service Option 3</option>
+            </select>
+          </div>
+         <div className='flex flex-col gap-2'>
+            <div className='flex flex-row items-center gap-2'>
+              <h1 className='font-poppins font-semibold text-[16px]'>Questions</h1>
+              <img src={circle3} className='w-2 h-2 object-contain' alt="" />
+            </div>
+            <textarea type="text" placeholder='Enter Your Questions' className='font-poppins font-medium text-[15px] text-[#AEAEAE] border-[#CBCBCB] border-[2px] rounded-[5px] py-3 pl-3 w-full focus:border-primary h-55 focus:bord-[4px] outline-none resize-none' />
+          </div>
+          <a href="" className='font-poppins font-semibold text-white bg-primary px-8 py-4 w-fit rounded-[8px] text-[16px]'>Booking Now</a>
+      </form>
     </div>
 
     </div>
