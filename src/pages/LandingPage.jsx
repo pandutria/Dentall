@@ -17,6 +17,8 @@ import titik2 from "/titik2.png"
 import circle1 from "/circle1.png"
 import circle2 from "/circle2.png"
 import more from "/more.png"
+import location from "/location.png"
+import serpong from "/serpong.png"
 
 const LandingPage = () => {
   return (
@@ -151,6 +153,43 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
+    </div>
+
+    <div className='flex flex-row gap-5 justify-center pb-10'>
+      <div className='flex flex-col'>
+        <div className='flex flex-row items-center gap-3 border-[2px] border-[#FF69B4] w-fit rounded-[10px] py-1.5 px-3.5'>
+          <img src={location} className='w-3' alt="" />
+          <p className='font-poppins font-medium text-[#676767] text-[14px]'>Our Location</p>
+        </div>
+        <h1 className='font-poppins font-semibold text-[40px] w-125 pt-5'>Discovering Indonesia’s spreadout dental clinics</h1>
+        <p className='font-poppins font-normal text-[#4B4B4B] text-[19px] w-125 pt-5'>We are located at Senyum Sehat Ceria, in a central and easily accessible area. Whether you're visiting for a routine check-up or a dental emergency, our clinic is always ready to welcome you!</p>
+        <div className='flex flex-row pt-10 gap-5 w-122'>
+          <div className='flex flex-col gap-2 w-full'>
+             <hr className='border-[1px] border-[#D0D0D0] w-full'/>
+             <h1 className='font-poppins font-semibold text-[20px] cursor-pointer'>Serpong</h1>
+             <hr className='border-[1px] border-[#D0D0D0] w-full'/>
+             <h1 className='font-poppins font-medium text-[#AEAEAE] text-[20px] cursor-pointer'>Bali</h1>
+             <hr className='border-[1px] border-[#D0D0D0] w-full'/>
+             <h1 className='font-poppins font-medium text-[#AEAEAE] text-[20px] cursor-pointer'>Jakarta Timur</h1>
+             <hr className='border-[1px] border-[#D0D0D0] w-ful'/>
+             <h1 className='font-poppins font-medium text-[#AEAEAE] text-[20px] cursor-pointer'>Bogor</h1>
+             <hr className='border-[1px] border-[#D0D0D0] w-full'/>
+          </div>
+          <div className='flex flex-col gap-2 w-full'>
+             <hr className='border-[1px] border-[#D0D0D0] w-full'/>
+             <h1 className='font-poppins font-medium text-[#AEAEAE] text-[20px] cursor-pointer'>Depok</h1>
+             <hr className='border-[1px] border-[#D0D0D0] w-full'/>
+             <h1 className='font-poppins font-medium text-[#AEAEAE] text-[20px] cursor-pointer'>Cikarang</h1>
+             <hr className='border-[1px] border-[#D0D0D0] w-full'/>
+             <h1 className='font-poppins font-medium text-[#AEAEAE] text-[20px] cursor-pointer'>Sumedang</h1>
+             <hr className='border-[1px] border-[#D0D0D0] w-ful'/>
+             <h1 className='font-poppins font-medium text-[#AEAEAE] text-[20px] cursor-pointer'>Jogja</h1>
+             <hr className='border-[1px] border-[#D0D0D0] w-full'/>
+          </div>
+        </div>
+        <a href="" className='font-poppins font-medium text-[14px] bg-primary w-fit text-white rounded-[20px] px-5 py-2.5 mt-8'>See all location</a>
+      </div>
+      <img src={serpong} className='w-140' alt="" />
     </div>
 
     </div>
