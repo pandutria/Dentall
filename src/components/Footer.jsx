@@ -10,7 +10,7 @@ import googleplay from "/googleplay.png"
 
 const Footer = () => {
   return (
-    <div className='flex flex-col justify-center items-center w-full py-20'>
+    <div className='flex flex-col justify-center items-center w-full pt-10 pb-20'>
       <img src={foot} className='w-270' alt="" />
       <div className='flex flex-row pt-15 gap-15'>
         <div className='flex flex-col'>

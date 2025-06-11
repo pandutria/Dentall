@@ -36,7 +36,7 @@ const LandingPage = () => {
         <div className='flex flex-row items-center mt-8 w-full'>
             <h1 className='font-poppins font-semibold text-[50px]'>827</h1>
             <img className='w-7 h-7 ml-2' src={plus} alt="" />
-            <p className='font-poppins font-normal text-[#6B6B6B] text-[17px] w-80 ml-5'>Transform your smile quickly and with our exceptionl service.</p>
+            <p className='font-poppins font-normal text-[#6B6B6B] text-15px lg:text-[17px] w-80 ml-5'>Transform your smile quickly and with our exceptionl service.</p>
         </div>
       </div>
       <img className='w-140 h-auto mt-[-60px] ml-[-25px] hidden lg:flex' src={home} alt="" />
@@ -101,9 +101,9 @@ const LandingPage = () => {
     </div>
     
     <div id='consultation' className='flex flex-col items-center w-full pt-15 lg:pt-20 px-10 lg:px-0 overflow-hidden'>
-      <div className='flex flex-row gap-0 w-full lg:w-auto lg:gap-185'>
+      <div className='flex flex-row gap-0 w-full justify-center lg:justify-start lg:w-auto lg:gap-185'>
         <div className='flex flex-col'>
-          <h2 className='text-primary font-poppins w-full lg:w-auto font-semibold text-[18px]'>Our Team</h2>
+          <h2 className='text-primary font-poppins text-center lg:text-start w-full lg:w-auto font-semibold text-[18px]'>Our Team</h2>
           <h1 className='font-poppins font-semibold text-[25px] lg:text-[35px]'>Our Expert <span className='text-primary'>Dentist</span></h1>
         </div>
         <div></div>
@@ -121,7 +121,7 @@ const LandingPage = () => {
     </div>
 
     <div id='testimoni' className='flex flex-col w-full px-10 lg:px-0 items-center overflow-hidden'>
-      <div className='flex flex-col w-full lg:flex-row pt-20 pb-10 items-center gap-5 lg:gap-45'>
+      <div className='flex flex-col w-full lg:w-auto lg:flex-row pt-20 pb-10 items-center gap-5 lg:gap-45'>
         <h1 className='font-poppins font-semibold text-center lg:text-start text-[30px] lg:text-[45px] w-full lg:w-110 leading-tight'>See What Our Client Have to Say:</h1>
         <p className='font-poppins font-normal text-[#6B6B6B] text-center lg:text-start text-[13px] w-full lg:w-115'>We understand that dental health is a long-term investment for a better quality of life. With a team of professional doctors and modern equipment, we are committed to providing a comfortable, safe, and high-quality dental care experience.</p>
       </div>
@@ -167,15 +167,15 @@ const LandingPage = () => {
     </div>
 
 
-    <div id='location' className='flex flex-row gap-5 justify-center pt-20'>
-      <div className='flex flex-col'>
+    <div id='location' className='flex flex-col lg:flex-row overflow-hidden px-10 lg:px-0 gap-8 lg:gap-5 w-full justify-center pt-5 lg:pt-10'>
+      <div className='flex flex-col items-center lg:items-start w-full lg:w-auto'>
         <div className='flex flex-row items-center gap-3 border-[2px] border-[#FF69B4] w-fit rounded-[10px] py-1.5 px-3.5'>
           <img src={location} className='w-3' alt="" />
           <p className='font-poppins font-medium text-[#676767] text-[14px]'>Our Location</p>
         </div>
-        <h1 className='font-poppins font-semibold text-[40px] w-125 pt-5'>Discovering Indonesia’s spreadout dental clinics</h1>
-        <p className='font-poppins font-normal text-[#4B4B4B] text-[19px] w-125 pt-5'>We are located at Senyum Sehat Ceria, in a central and easily accessible area. Whether you're visiting for a routine check-up or a dental emergency, our clinic is always ready to welcome you!</p>
-        <div className='flex flex-row pt-10 gap-5 w-122'>
+        <h1 className='font-poppins font-semibold text-center lg:text-start text-[26px] lg:text-[40px] w-full lg:w-125 pt-5'>Discovering Indonesia’s spreadout dental clinics</h1>
+        <p className='font-poppins font-normal text-[#4B4B4B] text-[15px] lg:text-[19px] text-center lg:text-start w-full lg:w-125 pt-5'>We are located at Senyum Sehat Ceria, in a central and easily accessible area. Whether you're visiting for a routine check-up or a dental emergency, our clinic is always ready to welcome you!</p>
+        <div className='flex flex-row pt-10 gap-5 w-full lg:w-122'>
           <div className='flex flex-col gap-2 w-full'>
              <hr className='border-[1px] border-[#D0D0D0] w-full'/>
              <h1 className='font-poppins font-semibold text-[20px] cursor-pointer'>Serpong</h1>
@@ -204,13 +204,13 @@ const LandingPage = () => {
       <img src={serpong} className='w-140' alt="" />
     </div>
 
-    <div id='book' className='flex flex-row pt-20 justify-center w-full gap-20'>
-      <div className='flex flex-col'>
+    <div id='book' className='flex flex-col lg:flex-row pt-20 pb-10 justify-center w-full gap-10 lg:gap-20 overflow-hidden px-10 lg:px-0'>
+      <div className='flex flex-col w-full lg:w-auto items-center lg:items-start'>
          <div className='flex flex-row items-center gap-3 border-[2px] border-[#FF69B4] w-fit rounded-[10px] py-1.5 px-3.5'>
           <p className='font-poppins font-medium text-primary text-[14px]'>Book Now</p>
         </div>
-        <h1 className='font-poppins font-semibold text-[45px] w-110 leading-tight pt-8'>Book Now & Secure <span className='text-primary'>Your Seat</span> Here</h1>
-        <p className='font-poppins font-medium text-[#595959] text-[13px] w-100 pt-3'>Ready for a brighter, healthier smile? Schedule your visit with us now! Whether it’s a routine check-up, teeth cleaning, or a specialized treatment, our expert dentists are here to help.</p>
+        <h1 className='font-poppins font-semibold text-[30px] lg:text-[45px] text-center lg:text-start w-full lg:w-110 leading-tight pt-8'>Book Now & Secure <span className='text-primary'>Your Seat</span> Here</h1>
+        <p className='font-poppins font-medium text-[#595959] text-[13px] text-center lg:text-start w-full lg:w-100 pt-3'>Ready for a brighter, healthier smile? Schedule your visit with us now! Whether it’s a routine check-up, teeth cleaning, or a specialized treatment, our expert dentists are here to help.</p>
         <div className='flex flex-row pt-8 items-center gap-2'>
           <img src={location2} className='w-4 h-4 object-contain' alt="" />
           <p className='font-poppins font-medium text-[#595959] text-[14px]'>Ruko Pisa Grande B no 7, Banten 15810</p>
@@ -226,7 +226,7 @@ const LandingPage = () => {
         <img src={pink} className='w-110 h-auto object-contain pt-10' alt="" />
       </div>
       <form action="" className='flex flex-col py-7 px-7 gap-5 rounded-[18px] shadow-[0px_1px_12.4px_1px_rgba(0,0,0,0.25)]'>
-        <div className='flex flex-row gap-6 w-125'>
+        <div className='flex flex-col lg:flex-row gap-6 w-full lg:w-125'>
           <div className='flex flex-col gap-2'>
             <div className='flex flex-row items-center gap-2'>
               <h1 className='font-poppins font-semibold text-[16px]'>Your Name</h1>
@@ -242,7 +242,7 @@ const LandingPage = () => {
             <input type="text" placeholder='Enter Your Number' className='font-poppins font-medium text-[15px] text-[#AEAEAE] border-[#CBCBCB] border-[2px] rounded-[5px] py-3 pl-3 w-full focus:border-primary focus:bord-[4px] outline-none' />
           </div>
         </div>
-        <div className='flex flex-row gap-6 w-120'>
+        <div className='flex flex-col lg:flex-row gap-6 w-full lg:w-125'>
           <div className='flex flex-col gap-2'>
             <div className='flex flex-row items-center gap-2'>
               <h1 className='font-poppins font-semibold text-[16px]'>Email address</h1>
