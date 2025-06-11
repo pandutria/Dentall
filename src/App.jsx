@@ -5,12 +5,14 @@ import './App.css'
 import React from 'react'
 import Navbar from './components/Navbar'
 import LandingPage from './pages/LandingPage'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
     <div className='flex flex-col'>
       <Navbar/>
       <LandingPage/>
+      <Footer/>
     </div>
   )
 }

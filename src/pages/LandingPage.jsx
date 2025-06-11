@@ -28,7 +28,7 @@ import pink from "/pink.png"
 const LandingPage = () => {
   return (
     <div className='flex flex-col scroll-smooth'>
-      <div className='flex flex-row justify-center items-center w-ful pt-30 pb-20'>
+      <div id='home' className='flex flex-row justify-center items-center w-full pt-30'>
       <div className='flex flex-col mr-[-25px]'>
         <h1 className='font-poppins font-medium leading-tight text-[65px] w-150'><span className='text-primary'>Take Care</span> of Your Teeth, Beautify Your <span className='text-primary'>Smile!</span></h1>
         <p className='font-poppins font-normal mt-4 text-[#6B6B6B] text-[15px] w-130'>We understand that dental health is not just about aesthetics, but also comfort and confidence. Therefore, we are here with the best service to help you get a healthy and charming smile.</p>
@@ -42,11 +42,11 @@ const LandingPage = () => {
       <img className='w-140 h-auto mt-[-60px] ml-[-25px]' src={home} alt="" />
     </div>
 
-    <div className='flex flex-row justify-center items-center gap-50 pt-10'>
+    <div id='about' className='flex flex-row justify-center items-center gap-50 pt-30'>
       <h1 className='font-poppins font-medium text-[55px] w-120 leading-tight'>Get pearl white teeth easily</h1>
       <p className='font-poppins text-[#6B6B6B] w-95 text-[12px]'>We understand that dental health is a long-term investment for a better quality of life. With a team of professional doctors and modern equipment, we are committed to providing a comfortable, safe, and high-quality dental care experience.</p>
     </div>
-    <div className='flex flex-row justify-center pt-12 pb-20 gap-20'>
+    <div className='flex flex-row justify-center pt-12 gap-20'>
       <img className='w-135' src={consultation} alt="" />
       <div className='flex flex-col gap-10 mt-20'>
         <div className='flex flex-col gap-2'>
@@ -68,7 +68,8 @@ const LandingPage = () => {
     </div>
 
 
-    <div className='flex flex-col bg-[#FF2492] w-full'>
+    <div id='service' className='flex flex-col pt-20'>
+      <div className='flex flex-col bg-[#FF2492] w-full'>
       <div className='flex flex-col py-15'>
         <div className='flex flex-row justify-center items-center gap-30'>
           <h1 className='text-white font-poppins font-semibold text-[40px] w-125'>We specialize in you, whatever your specialty</h1>
@@ -96,8 +97,9 @@ const LandingPage = () => {
       </div>
       </div>
     </div>
+    </div>
     
-    <div className='flex flex-col justify-center items-center w-full py-10'>
+    <div id='consultation' className='flex flex-col items-center w-full pt-20'>
       <div className='flex flex-row gap-185'>
         <div className='flex flex-col'>
           <h2 className='text-primary font-poppins font-semibold text-[18px]'>Our Team</h2>
@@ -115,7 +117,8 @@ const LandingPage = () => {
         <img className='w-85' src={dentist5} alt="" />
         <img className='w-85' src={dentist1} alt="" />
       </div>
-      <div className='flex flex-row pt-20 pb-10 items-center gap-45'>
+
+      <div id='testimoni' className='flex flex-row pt-20 pb-10 items-center gap-45'>
         <h1 className='font-poppins font-semibold text-[45px] w-110 leading-tight'>See What Our Client Have to Say:</h1>
         <p className='font-poppins font-normal text-[#6B6B6B] text-[13px] w-115'>We understand that dental health is a long-term investment for a better quality of life. With a team of professional doctors and modern equipment, we are committed to providing a comfortable, safe, and high-quality dental care experience.</p>
       </div>
@@ -160,7 +163,7 @@ const LandingPage = () => {
       </div>
     </div>
 
-    <div className='flex flex-row gap-5 justify-center'>
+    <div id='location' className='flex flex-row gap-5 justify-center pt-20'>
       <div className='flex flex-col'>
         <div className='flex flex-row items-center gap-3 border-[2px] border-[#FF69B4] w-fit rounded-[10px] py-1.5 px-3.5'>
           <img src={location} className='w-3' alt="" />
@@ -197,7 +200,7 @@ const LandingPage = () => {
       <img src={serpong} className='w-140' alt="" />
     </div>
 
-    <div className='flex flex-row pt-20 pb-20 justify-center w-full gap-25'>
+    <div id='book' className='flex flex-row pt-20 justify-center w-full gap-20'>
       <div className='flex flex-col'>
          <div className='flex flex-row items-center gap-3 border-[2px] border-[#FF69B4] w-fit rounded-[10px] py-1.5 px-3.5'>
           <p className='font-poppins font-medium text-primary text-[14px]'>Book Now</p>
@@ -219,7 +222,7 @@ const LandingPage = () => {
         <img src={pink} className='w-110 h-auto object-contain pt-10' alt="" />
       </div>
       <form action="" className='flex flex-col py-7 px-7 gap-5 rounded-[18px] shadow-[0px_1px_12.4px_1px_rgba(0,0,0,0.25)]'>
-        <div className='flex flex-row gap-6 w-120'>
+        <div className='flex flex-row gap-6 w-125'>
           <div className='flex flex-col gap-2'>
             <div className='flex flex-row items-center gap-2'>
               <h1 className='font-poppins font-semibold text-[16px]'>Your Name</h1>
