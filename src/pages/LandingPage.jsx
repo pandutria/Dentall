@@ -28,7 +28,7 @@ import pink from "/pink.png"
 const LandingPage = () => {
   return (
     <div className='flex flex-col scroll-smooth'>
-      <div id='home' className='flex flex-row justify-center items-center w-full pt-30 lg:pt-35'>
+      <div id='home' className='flex flex-row justify-center items-center w-full pt-25 lg:pt-35'>
       <div className='flex flex-col lg:mr-[-25px] justify-center px-10 overflow-hidden lg:px-0 lg:justify-start items-center lg:items-start'>
         <h1 className='font-poppins font-medium leading-tight  lg:text-[65px] text-[35px] w-full lg:px-0 text-center lg:text-start lg:w-150'><span className='text-primary'>Take Care</span> of Your Teeth, Beautify Your <span className='text-primary'>Smile!</span></h1>
         <p className='font-poppins font-normal mt-4 text-[#6B6B6B] text-[15px] text-center lg:text-start w-full lg:w-130'>We understand that dental health is not just about aesthetics, but also comfort and confidence. Therefore, we are here with the best service to help you get a healthy and charming smile.</p>
@@ -36,7 +36,7 @@ const LandingPage = () => {
         <div className='flex flex-row items-center mt-8 w-full'>
             <h1 className='font-poppins font-semibold text-[50px]'>827</h1>
             <img className='w-7 h-7 ml-2' src={plus} alt="" />
-            <p className='font-poppins font-normal text-[#6B6B6B] text-15px lg:text-[17px] w-80 ml-5'>Transform your smile quickly and with our exceptionl service.</p>
+            <p className='font-poppins font-normal text-[#6B6B6B] text-[15px] lg:text-[17px] w-full lg:w-80 ml-5'>Transform your smile quickly and with our exceptionl service.</p>
         </div>
       </div>
       <img className='w-140 h-auto mt-[-60px] ml-[-25px] hidden lg:flex' src={home} alt="" />
