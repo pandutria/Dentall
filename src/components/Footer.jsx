@@ -59,8 +59,8 @@ const Footer = () => {
         <div className='flex flex-col gap-3'>
           <h1 className='font-poppins font-medium text-[17px]'>Get the app</h1>
           <div className='flex flex-row gap-5'>
-            <img src={app} className='w-40 h-auto object-contain' alt="" />
-            <img src={googleplay} className='w-40 h-auto object-contain' alt="" />
+            <img src={app} className='w-full lg:w-40 h-auto object-contain' alt="" />
+            <img src={googleplay} className='w-full lg:w-40 h-auto object-contain' alt="" />
           </div>
         </div>
         <div className='hidden lg:flex flex-row gap-12 lg:gap-17'>
