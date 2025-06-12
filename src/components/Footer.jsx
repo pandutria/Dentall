@@ -10,7 +10,7 @@ import googleplay from "/googleplay.png"
 
 const Footer = () => {
   return (
-    <div className='flex flex-col justify-center items-center px-10 px:0 w-full pt-5 lg:pt-10 pb-20'>
+    <div className='flex flex-col justify-center items-center px-10 px:0 w-full pt-5 lg:pt-10 pb-10 lg:pb-20 overflow-hidden'>
       <img src={foot} className='w-full lg:w-270' alt="" />
       <div className='flex flex-col lg:flex-row pt-10 lg:pt-15 gap-20 lg:gap-15 w-full lg:w-auto'>
         <div className='flex flex-col'>
@@ -54,13 +54,13 @@ const Footer = () => {
           </div>
         </div>
       </div>
-       <hr className='border-[1px] border-[#D0D0D0] w-full lg:w-269 my-10'/>
+       <hr className='border-[1px] border-[#D0D0D0] w-full lg:w-269 my-5 lg:my-10'/>
        <div className='flex flex-col lg:flex-row gap-6 lg:gap-62 w-full lg:w-auto'>
         <div className='flex flex-col gap-3 w-full lg:w-auto'>
           <h1 className='font-poppins font-medium text-[17px]'>Get the app</h1>
           <div className='flex flex-row gap-5 w-full lg:w-auto'>
-            <img src={app} className='w-full lg:w-40 h-auto object-contain' alt="" />
-            <img src={googleplay} className='w-full lg:w-40 h-auto object-contain' alt="" />
+            <img src={app} className='w-full lg:w-40 lg:h-auto object-contain' alt="" />
+            <img src={googleplay} className='w-full lg:w-40 lg:h-auto object-contain' alt="" />
           </div>
         </div>
         <div className='hidden lg:flex flex-row gap-12 lg:gap-17'>
