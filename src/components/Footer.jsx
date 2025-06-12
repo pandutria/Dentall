@@ -56,7 +56,7 @@ const Footer = () => {
       </div>
        <hr className='border-[1px] border-[#D0D0D0] w-full lg:w-269 my-10'/>
        <div className='flex flex-col lg:flex-row gap-6 lg:gap-62 w-full lg:w-auto'>
-        <div className='flex flex-col gap-3'>
+        <div className='flex flex-col gap-3 w-full lg:w-auto'>
           <h1 className='font-poppins font-medium text-[17px]'>Get the app</h1>
           <div className='flex flex-row gap-5 w-full lg:w-auto'>
             <img src={app} className='w-full lg:w-40 h-auto object-contain' alt="" />
