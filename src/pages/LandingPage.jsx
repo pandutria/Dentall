@@ -28,11 +28,11 @@ import pink from "/pink.png"
 const LandingPage = () => {
   return (
     <div className='flex flex-col scroll-smooth'>
-      <div id='home' className='flex flex-row justify-center items-center w-full pt-30'>
+      <div id='home' className='flex flex-row justify-center items-center w-full pt-30 lg:pt-35'>
       <div className='flex flex-col lg:mr-[-25px] justify-center px-10 overflow-hidden lg:px-0 lg:justify-start items-center lg:items-start'>
         <h1 className='font-poppins font-medium leading-tight  lg:text-[65px] text-[35px] w-full lg:px-0 text-center lg:text-start lg:w-150'><span className='text-primary'>Take Care</span> of Your Teeth, Beautify Your <span className='text-primary'>Smile!</span></h1>
         <p className='font-poppins font-normal mt-4 text-[#6B6B6B] text-[15px] text-center lg:text-start w-full lg:w-130'>We understand that dental health is not just about aesthetics, but also comfort and confidence. Therefore, we are here with the best service to help you get a healthy and charming smile.</p>
-        <a href="" className='bg-primary rounded-[50px] text-white font-poppins font-medium text-[13px] py-3 px-10 mt-8 w-fit'>Book Online</a>
+        <a href="#book" className='bg-primary rounded-[50px] text-white font-poppins font-medium text-[13px] py-3 px-10 mt-8 w-fit'>Book Online</a>
         <div className='flex flex-row items-center mt-8 w-full'>
             <h1 className='font-poppins font-semibold text-[50px]'>827</h1>
             <img className='w-7 h-7 ml-2' src={plus} alt="" />
@@ -204,7 +204,7 @@ const LandingPage = () => {
       <img src={serpong} className='w-140' alt="" />
     </div>
 
-    <div id='book' className='flex flex-col lg:flex-row pt-20 pb-10 justify-center w-full gap-10 lg:gap-20 overflow-hidden px-10 lg:px-0'>
+    <div id='book' className='flex flex-col lg:flex-row pt-10 lg:pt-20 pb-10 justify-center w-full gap-10 lg:gap-20 overflow-hidden px-10 lg:px-0'>
       <div className='flex flex-col w-full lg:w-auto items-center lg:items-start'>
          <div className='flex flex-row items-center gap-3 border-[2px] border-[#FF69B4] w-fit rounded-[10px] py-1.5 px-3.5'>
           <p className='font-poppins font-medium text-primary text-[14px]'>Book Now</p>
