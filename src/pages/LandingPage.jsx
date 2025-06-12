@@ -80,19 +80,19 @@ const LandingPage = () => {
         <div className='flex flex-col bg-white rounded-[30px] px-4 lg:px-0'>
           <img className='w-full lg:w-75 lg:mx-5 mt-4' src={checkup} alt="" />
           <hr className='border-[1px] border-primary lg:mx-5 mt-5'/>
-          <h1 className='font-poppins font-semibold text-[25px] mt-3 lg:mx-5'>Dental Check-Up</h1>
+          <h1 className='font-poppins font-semibold text-[20px] lg:text-[25px] mt-3 lg:mx-5'>Dental Check-Up</h1>
           <p className='font-poppins font-medium text-[#454545] h-24 text-[13px] mt-2 lg:mx-5 w-full lg:w-75'>we offer comprehensive dental check-ups and consultations to detect issues early and provide the best treatment solutions.</p>
         </div>
         <div className='flex flex-col bg-white rounded-[30px] px-4 lg:px-0'>
           <img className='w-full lg:w-75 lg:mx-5 mt-4' src={treatment} alt="" />
           <hr className='border-[1px] border-primary lg:mx-5 mt-5'/>
-          <h1 className='font-poppins font-semibold text-[25px] mt-3 lg:mx-5'>Orthodontic Treatment</h1>
+          <h1 className='font-poppins font-semibold text-[20px] lg:text-[25px] mt-3 lg:mx-5'>Orthodontic Treatment</h1>
           <p className='font-poppins font-medium text-[#454545] h-24 text-[13px] mt-2 lg:mx-5 w-full lg:w-75'>Aligned teeth are not just about looks—they contribute to better oral health too! We offer orthodontic treatments, including traditional braces and Invisalign.</p>
         </div>
         <div className='flex flex-col bg-white rounded-[30px] px-4 lg:px-0'>
           <img className='w-full lg:w-75 lg:mx-5 mt-4' src={cleaning} alt="" />
           <hr className='border-[1px] border-primary lg:mx-5 mt-5'/>
-          <h1 className='font-poppins font-semibold text-[25px] mt-3 lg:mx-5'>Teeth Cleaning</h1>
+          <h1 className='font-poppins font-semibold text-[20px] lg:text-[25px] mt-3 lg:mx-5'>Teeth Cleaning</h1>
           <p className='font-poppins font-medium text-[#454545] h-24 text-[13px] mt-2 lg:mx-5 w-full lg:w-75'>Plaque and tartar buildup can lead to gum disease, bad breath, and cavities. With our professional teeth cleaning and scaling service.</p>
         </div>
       </div>
